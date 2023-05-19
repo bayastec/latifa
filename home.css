@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topbar{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(11, 10, 10);
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbar h1{
+    font-size: 50px;
+    font-weight:bolder;
+    padding: 0 30px;
+    text-shadow: 1px 1px 2px orangered;
+}
+
+ul{
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+li{
+    margin: 0 10px;
+}
+.topbar a{
+    color: crimson;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.2s ease-in;
+}
+a{
+    text-decoration: none;
+}
+.topbar a:hover{
+    color: brown;
+}
+.topNews{
+    display: flex;
+    align-items: flex-end;
+    background: url(cool.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+}
+.titleTop{
+    font-size: 21px;
+    margin: 20px 70px;
+    color: whitesmoke;
+}
+.readButton{
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px 5px 5px 0;
+    border: 0px solid transparent;
+    transition: 0.3s ease-in-out;
+    background: linear-gradient(rgb(114, 26, 26),brown,rgb(114, 27, 27));
+}
+.readButton a{
+    color: whitesmoke;
+}
+.readButton:hover{
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+.otherNews{
+    padding: 5px;
+}
+.articles{
+    display: flex;
+    /* flex-flow: wrap; */
+    margin: 5px 0;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+.newsImg{
+    flex-shrink: 0;
+    display: inline;
+    width: 30%;
+    height:70%;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    margin:0 10px 0 0;
+    /* flex-basis: 1; */
+}
+.content{
+    flex-shrink: 2;
+    
+}
+.content h1{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.span{
+    opacity: 0.8;
+}
+.span2{
+    opacity: 0.5;
+}
+.span3{
+    opacity: 0.3;
+}
